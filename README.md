@@ -11,6 +11,12 @@ Controlling the MicriSpotAI robot from scratch
 
 ## Components from MicroSpot
 
+The MicriSpotAI has the following components:
+
+<p align="center">
+<img src="_images/components-microspot-ai.png" alt="Flowchart" width="450"/>
+</p>
+
 
 ## Conection to Raspbperry Pi
 
