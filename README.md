@@ -17,8 +17,17 @@ The MicriSpotAI has the following components:
 <img src="_images/components-microspot-ai.png" alt="Flowchart" width="450"/>
 </p>
 
+<p align="center">
+<img src="_images/ssh-conexion-rpi.png" alt="Flowchart" width="450"/>
+</p>
+
 
 ## Conection to Raspbperry Pi
+
+To connect to the MicroSpot robot you must use their own hotspot network, but this type of configuration produces that the Raspberry Pi and the laptop does not have internet connection, which is a problem. For this reason we looked for another type of access from a laptop to the Raspberry Pi. So, there are several configurations for the SSH connection, it can be through a LAN cable, or through the local internet network.
+
+Between these two types of SSH connections, the connection via the local WiFi network was chosen because it would be easier to manipulate the robot wireless and remotely.
+
 
 
 ## Calibration of Servo Motors
