@@ -1,4 +1,5 @@
-# project-microspot-ai
+# Project-MmicroSpot-AI
+
 Controlling the MicriSpotAI robot from scratch
 
 
@@ -27,4 +28,16 @@ Resources:
 - http://wiki.ros.org/kinetic
 
 - [ROS Website](https://www.ros.org/)
+
+
+
+
+<!---
+
+git pull
+git add -A
+git commit -m "v0"
+git push -u origin main
+
+--->
 
