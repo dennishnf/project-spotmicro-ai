@@ -3,15 +3,22 @@
 Controlling the MicriSpotAI robot from scratch
 
 
-Members:
+## Colaborators
 
 - Alexander    
 - Dennis 
 
 
+## Components from MicroSpot
 
 
-Resources:
+## Conection to Raspbperry Pi
+
+
+## Calibration of Servo Motors
+
+
+## Resources and references
 
 - https://github.com/mike4192/spotMicro
 
