@@ -1,4 +1,4 @@
-# Project-MmicroSpot-AI
+# Project-MicroSpot-AI
 
 Controlling the MicriSpotAI robot from scratch
 
