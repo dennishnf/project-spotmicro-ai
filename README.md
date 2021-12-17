@@ -62,6 +62,10 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 ## Demos
 
 <p align="center">
+<img src="_images/demo1-lateral.gif" alt="Flowchart" width="350"/>
+</p>
+
+<p align="center">
 <img src="_images/demo2.gif" alt="Flowchart" width="350"/>
 </p>
 
