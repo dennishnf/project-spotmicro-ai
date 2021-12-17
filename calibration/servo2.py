@@ -1,4 +1,4 @@
-# Servo2.py
+# servo2.py
 
 from smbus import SMBus
 from PCA9685 import PWM

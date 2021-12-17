@@ -1,4 +1,4 @@
-# Servo1.py
+# servo1.py
 
 import RPi.GPIO as GPIO
 import time
