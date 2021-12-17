@@ -69,9 +69,13 @@ Code: ```servo3.py```
 
 Code: ```moveEachLeg.py```
 
+Moving one joint at a time:
+
 <p align="center">
 <img src=".images-readme/demo1-lateral.gif" alt="Flowchart" width="350"/>
 </p>
+
+Simulating walk by moving various joints at a time:
 
 <p align="center">
 <img src=".images-readme/demo2.gif" alt="Flowchart" width="350"/>
