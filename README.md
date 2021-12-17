@@ -20,7 +20,7 @@ Controlling the MicriSpotAI robot from scratch
 The MicriSpotAI has the following components:
 
 <p align="center">
-<img src="_images/components-microspot-ai.png" alt="Flowchart" width="450"/>
+<img src=".images-readme/components-microspot-ai.png" alt="Flowchart" width="450"/>
 </p>
 
 
@@ -31,7 +31,7 @@ To connect to the MicroSpot robot you must use their own hotspot network, but th
 Between these two types of SSH connections, the connection via the local WiFi network was chosen because it would be easier to manipulate the robot wireless and remotely.
 
 <p align="center">
-<img src="_images/ssh-conexion-rpi.png" alt="Flowchart" width="450"/>
+<img src=".images-readme/ssh-conexion-rpi.png" alt="Flowchart" width="450"/>
 </p>
 
 
@@ -41,20 +41,20 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 ### Calibration of 1 servomotor via GPIO ports
 
 <p align="center">
-<img src="_images/servos_control_gpio.png" alt="Flowchart" width="300"/>
+<img src=".images-readme/servos_control_gpio.png" alt="Flowchart" width="300"/>
 </p>
 
 
 ### Calibration of 1 servomotor via PCA9885 module
 
 <p align="center">
-<img src="_images/servos_control_pca_1.png" alt="Flowchart" width="300"/>
+<img src=".images-readme/servos_control_pca_1.png" alt="Flowchart" width="300"/>
 </p>
 
 ### Calibration of 4 servomotor via PCA9885 module
 
 <p align="center">
-<img src="_images/servos_control_pca_4.png" alt="Flowchart" width="300"/>
+<img src=".images-readme/servos_control_pca_4.png" alt="Flowchart" width="300"/>
 </p>
 
 
@@ -62,11 +62,11 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 ## Demos
 
 <p align="center">
-<img src="_images/demo1-lateral.gif" alt="Flowchart" width="350"/>
+<img src=".images-readme/demo1-lateral.gif" alt="Flowchart" width="350"/>
 </p>
 
 <p align="center">
-<img src="_images/demo2.gif" alt="Flowchart" width="350"/>
+<img src=".images-readme/demo2.gif" alt="Flowchart" width="350"/>
 </p>
 
 
