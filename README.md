@@ -6,13 +6,13 @@
 
 # Project-SpotMicro-AI
 
-Controlling the MicriSpotAI robot from scratch
+Calibrating and controlling the MicriSpotAI robot from scratch.
 
 
 ## Colaborators
 
 - Alexander    
-- Dennis 
+- Dennis    
 
 
 ## Components from MicroSpot
