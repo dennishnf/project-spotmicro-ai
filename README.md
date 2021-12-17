@@ -41,7 +41,7 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 ### Calibration of 1 servomotor via GPIO ports
 
 <p align="center">
-<img src=".images-readme/servos_control_gpio.png" alt="Flowchart" width="210"/>
+<img src=".images-readme/servos_control_gpio.png" alt="Flowchart" width="200"/>
 </p>
 
 
