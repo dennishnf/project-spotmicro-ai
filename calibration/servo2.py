@@ -1,3 +1,5 @@
+# Servo2.py
+
 from smbus import SMBus
 from PCA9685 import PWM
 import time
@@ -5,8 +7,8 @@ import time
 fPWM = 50
 i2c_address = 0x40 # (standard) adapt to your module
 channels = [0] # adapt to your wiring
-a = 7.7 # adapt to your servo
-b = 2.9  # adapt to your servo
+a = 8.1  # adapt to your servo
+b = 1.6  # adapt to your servo
 
 def setup():
     global pwm
@@ -32,5 +34,5 @@ time.sleep(1)
 setDirection(90)
 time.sleep(1)
 print "should end on 90"
-setDirection(180)
+#setDirection(180)
 print "done"
