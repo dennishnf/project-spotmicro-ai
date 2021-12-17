@@ -40,6 +40,8 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 
 ### Calibration of 1 servomotor via GPIO ports
 
+Code: servo1.py
+
 <p align="center">
 <img src=".images-readme/servos_control_gpio.png" alt="Flowchart" width="200"/>
 </p>
@@ -47,11 +49,15 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 
 ### Calibration of 1 servomotor via PCA9885 module
 
+Code: servo2.py
+
 <p align="center">
 <img src=".images-readme/servos_control_pca_1.png" alt="Flowchart" width="300"/>
 </p>
 
 ### Calibration of 4 servomotor via PCA9885 module
+
+Code: servo3.py
 
 <p align="center">
 <img src=".images-readme/servos_control_pca_4.png" alt="Flowchart" width="260"/>
@@ -60,6 +66,8 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 
 
 ## Demos
+
+Code: moveEachLeg.py
 
 <p align="center">
 <img src=".images-readme/demo1-lateral.gif" alt="Flowchart" width="350"/>
