@@ -54,7 +54,7 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 ### Calibration of 4 servomotor via PCA9885 module
 
 <p align="center">
-<img src=".images-readme/servos_control_pca_4.png" alt="Flowchart" width="280"/>
+<img src=".images-readme/servos_control_pca_4.png" alt="Flowchart" width="260"/>
 </p>
 
 
