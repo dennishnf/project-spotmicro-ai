@@ -58,6 +58,14 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 </p>
 
 
+
+## Demos
+
+<p align="center">
+<img src="_images/demo2.gif" alt="Flowchart" width="350"/>
+</p>
+
+
 ## Resources and references
 
 - https://github.com/mike4192/spotMicro
