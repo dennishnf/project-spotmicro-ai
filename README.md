@@ -84,7 +84,7 @@ Simulating walk by moving various joints at a time:
 
 ## Resources and references
 
-- https://github.com/mike4192/spotMicro
+- [GitHub: Spot Micro Quadruped Project](https://github.com/mike4192/spotMicro)
 
 - https://gitlab.com/public-open-source/spotmicroai/electronics
 
@@ -98,7 +98,7 @@ Simulating walk by moving various joints at a time:
 
 - http://wiki.ros.org/kinetic
 
-- [ROS Website](https://www.ros.org/)
+- [Official ROS Website](https://www.ros.org/)
 
 
 
