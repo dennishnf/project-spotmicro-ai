@@ -77,6 +77,8 @@ Test calibration by moving one joint at a time:
 
 Simulating walk by moving various joints at a time:
 
+As can be seen, first the motors start in a non-aligned initial position, the calibration program re-aligns the legs and begins to perform a repetitive motion simulating walking.
+
 <p align="center">
 <img src=".images-readme/demo2.gif" alt="Flowchart" width="350"/>
 </p>
