@@ -132,6 +132,9 @@ Here we verify that the values of ```a``` and ```b``` found above give a correct
 <img src=".images-readme/servos_control_pca_4.png" alt="Flowchart" width="260"/>
 </p>
 
+**Warning:**    
+
+Be careful when connecting the DATA and CLOCK signals between the PCA9885 module and the Raspberry Pi.
 
 
 ## Demos for test calibration
@@ -156,11 +159,9 @@ As can be seen, first the motors start in a non-aligned initial position, the ca
 <img src=".images-readme/demo2.gif" alt="Flowchart" width="350"/>
 </p>
 
-
 **Warning:**    
 
 Because PCA9885 modules have a maximum output amperage for servomotors, two or three PCA9885 modules should be used. It was observed that when only one PCA9885 module was used, it was not possible to energize all 12 servomotors, so we proceeded to use two PCA9885 modules, each controlling 6 servomotors.
-
 
 
 ## Resources and references
