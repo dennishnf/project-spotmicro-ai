@@ -11,8 +11,8 @@ Calibrating and controlling the MicriSpotAI robot from scratch.
 
 ## Colaborators
 
-- Alexander [@AlexanderOG]    
-- Dennis [@dennishnf]    
+- Alexander OBEID [@AlexanderOG]    
+- Dennis NUNEZ FERNANDEZ [@dennishnf]    
 
 
 ## Components from MicroSpot
@@ -80,6 +80,18 @@ Be careful with some WiFi names or passwords, as the use of characters such as h
 
 
 ## Calibration of the servomotors
+
+
+
+<p align="center">
+<img src=".images-readme/servo_control1.png" alt="Flowchart" width="200"/>
+</p>
+
+
+<p align="center">
+<img src=".images-readme/servo_control2.png" alt="Flowchart" width="200"/>
+</p>
+
 
 ### Calibration of 1 servomotor via GPIO ports
 
