@@ -62,7 +62,7 @@ network={
 }
 ```
 
-Open Terminal app on your MacBook and type the following command:
+Open Terminal app on your laptop and type the following command:
 
 ```
 $ ssh pi@raspberrypi.local
@@ -73,6 +73,9 @@ Or:
 ```
 $ ssh ubuntu@ubiquityrobot.local
 ```
+
+Warning:    
+Be careful with some WiFi names or passwords, as the use of characters such as hyphens (-) or quotes (") may cause the password to be misconfigured in wpa_supplicant.conf.
 
 
 ## Calibration of Servo Motors
