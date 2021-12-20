@@ -11,8 +11,8 @@ Calibrating and controlling the MicriSpotAI robot from scratch.
 
 ## Colaborators
 
-- Alexander    
-- Dennis    
+- Alexander [@AlexanderOG]    
+- Dennis [@dennishnf]    
 
 
 ## Components from MicroSpot
