@@ -17,7 +17,12 @@ Calibrating and controlling the MicriSpotAI robot from scratch.
 
 ## Components from MicroSpot
 
-The MicriSpotAI has the following components:
+The MicriSpotAI has the following main components:
+
+- Raspberry Pi 3B +    
+- Raspberry Pi Camera  
+- LiPo Batteries    
+- Servo Motors    
 
 <p align="center">
 <img src=".images-readme/components-microspot-ai.png" alt="Flowchart" width="450"/>
