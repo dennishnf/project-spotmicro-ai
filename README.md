@@ -67,15 +67,19 @@ Code: ```servo3.py```
 
 ## Demos
 
+### Test calibration by moving one joint at a time:
+
 Code: ```moveEachLeg.py```
 
-Test calibration by moving one joint at a time:
+In this calibration test, the movement of each servomotor is performed according to the assigned movement angles. This test is performed in series, for each servomotor, one after other.
 
 <p align="center">
 <img src=".images-readme/demo1-lateral.gif" alt="Flowchart" width="350"/>
 </p>
 
-Simulating walk by moving various joints at a time:
+### Simulating walk by moving various joints at a time:
+
+Code: ```moveEachLeg.py```
 
 As can be seen, first the motors start in a non-aligned initial position, the calibration program re-aligns the legs and begins to perform a repetitive motion simulating walking.
 
