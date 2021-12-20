@@ -22,7 +22,7 @@ The MicriSpotAI has the following main components:
 - Raspberry Pi 3B +    
 - Raspberry Pi Camera  
 - LiPo Batteries    
-- Servo Motors    
+- Servomotors    
 
 <p align="center">
 <img src=".images-readme/components-microspot-ai.png" alt="Flowchart" width="450"/>
@@ -75,14 +75,16 @@ $ ssh ubuntu@ubiquityrobot.local
 ```
 
 **Warning:**    
-- Be careful with some WiFi names or passwords, as the use of characters such as hyphens (-) or quotes (") may cause the password to be misconfigured in wpa_supplicant.conf
+Be careful with some WiFi names or passwords, as the use of characters such as hyphens (-) or quotes (") may cause the password to be misconfigured in wpa_supplicant.conf
 
 
-## Calibration of Servo Motors
+## Calibration of the servomotors
 
 ### Calibration of 1 servomotor via GPIO ports
 
 Code: ```servo1.py```
+
+First we evaluate the correct operation of the motors, for this we use the simple code mentioned above and the configuration shown in the figure. To control the servomotor we use the GPIO ports of the Raspberry Pi.
 
 <p align="center">
 <img src=".images-readme/servos_control_gpio.png" alt="Flowchart" width="200"/>
