@@ -116,7 +116,7 @@ Finally, to make the use of several motors at the same time using the PCA9685 mo
 
 
 
-## Demos
+## Demos for test calibration
 
 ### Test calibration by moving one joint at a time
 
