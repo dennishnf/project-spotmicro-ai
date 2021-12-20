@@ -75,8 +75,7 @@ $ ssh ubuntu@ubiquityrobot.local
 ```
 
 **Warning:**    
-
-Be careful with some WiFi names or passwords, as the use of characters such as hyphens (-) or quotes (") may cause the password to be misconfigured in wpa_supplicant.conf
+- Be careful with some WiFi names or passwords, as the use of characters such as hyphens (-) or quotes (") may cause the password to be misconfigured in wpa_supplicant.conf
 
 
 ## Calibration of Servo Motors
