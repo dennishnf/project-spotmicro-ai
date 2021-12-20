@@ -81,13 +81,18 @@ Be careful with some WiFi names or passwords, as the use of characters such as h
 
 ## Calibration of the servomotors
 
-
+The servomotors have the following operation according to duty cycle:
 
 <p align="center">
 <img src=".images-readme/servo_control1.png" alt="Flowchart" width="350"/>
-&nbsp; &nbsp; &nbsp; &nbsp;
+</p>
+
+For the calibration we need to find the values of a and b, which are shown below:
+
+<p align="center">
 <img src=".images-readme/servo_control2.png" alt="Flowchart" width="350"/>
 </p>
+
 
 
 ### Calibration of 1 servomotor via GPIO ports
