@@ -11,8 +11,8 @@ Calibrating and controlling the MicriSpotAI robot from scratch.
 
 ## Colaborators
 
-- Alexander OBEID [@AlexanderOG]    
-- Dennis NUNEZ FERNANDEZ [@dennishnf]    
+- Alexander OBEID ([@AlexanderOG](https://github.com/AlexanderOG))    
+- Dennis NUNEZ FERNANDEZ ([@dennishnf](https://github.com/dennishnf))    
 
 
 ## Components from MicroSpot
