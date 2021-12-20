@@ -157,6 +157,12 @@ As can be seen, first the motors start in a non-aligned initial position, the ca
 </p>
 
 
+**Warning:**    
+
+Because PCA9885 modules have a maximum output amperage for servomotors, two or three PCA9885 modules should be used. It was observed that when only one PCA9885 module was used, it was not possible to energize all 12 servomotors, so we proceeded to use two PCA9885 modules, each controlling 6 servomotors.
+
+
+
 ## Resources and references
 
 - [GitHub: Spot Micro Quadruped Project](https://github.com/mike4192/spotMicro)
