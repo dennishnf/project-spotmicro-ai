@@ -51,7 +51,6 @@ Follow the steps:
 4. Paste the following and replace the “country”, “ssid” and “psk”
 
 ```
-
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=«your_ISO-3166-1_two-letter_country_code»
@@ -67,7 +66,6 @@ Open Terminal app on your MacBook and type the following command:
 
 ```
 $ ssh pi@raspberrypi.local
-
 ```
 
 Or:
