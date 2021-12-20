@@ -40,6 +40,42 @@ Between these two types of SSH connections, the connection via the local WiFi ne
 </p>
 
 
+Follow the steps:
+
+1. Open the memory card on your computer
+
+2. Go to folder boot
+
+3. Open the file wpa_supplicant.conf
+
+4. Paste the following and replace the “country”, “ssid” and “psk”
+
+```
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=«your_ISO-3166-1_two-letter_country_code»
+
+network={
+    ssid="«your_SSID»"
+    psk="«your_password_PSK»"
+    key_mgmt=WPA-PSK
+}
+```
+
+Open Terminal app on your MacBook and type the following command:
+
+```
+$ ssh pi@raspberrypi.local
+
+```
+
+Or:
+
+```
+$ ssh ubuntu@ubiquityrobot.local
+```
+
 
 ## Calibration of Servo Motors
 
