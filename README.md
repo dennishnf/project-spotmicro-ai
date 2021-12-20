@@ -84,12 +84,9 @@ Be careful with some WiFi names or passwords, as the use of characters such as h
 
 
 <p align="center">
-<img src=".images-readme/servo_control1.png" alt="Flowchart" width="200"/>
-</p>
-
-
-<p align="center">
-<img src=".images-readme/servo_control2.png" alt="Flowchart" width="200"/>
+<img src=".images-readme/servo_control1.png" alt="Flowchart" width="250"/>
+&nbsp; &nbsp; &nbsp; &nbsp;
+<img src=".images-readme/servo_control2.png" alt="Flowchart" width="250"/>
 </p>
 
 
