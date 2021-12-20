@@ -87,7 +87,7 @@ The servomotors have the following operation according to duty cycle:
 <img src=".images-readme/servo_control1.png" alt="Flowchart" width="350"/>
 </p>
 
-For the calibration we need to find the values of a and b, which are shown below:
+For the calibration we need to find the values of ```a``` and ```b```, which are shown below:
 
 <p align="center">
 <img src=".images-readme/servo_control2.png" alt="Flowchart" width="350"/>
@@ -114,6 +114,8 @@ Now a servo is going to be controlled using the PCA9885 module. For this we will
 
 In addition, since the I2C protocol will be used for communication between the Raspberry Pi and the PCA9685 module, the respective libraries for the use of I2C on the Raspberry Pi must be installed. To do this, install the libraries with: ```sudo apt-get install python-smbus i2c-tools```, and then test the address with the command: ```sudo i2cdetect -y 1-```
 
+Here we manually find the values of ```a``` and ```b```, mentioned at the beginning of this section.
+
 <p align="center">
 <img src=".images-readme/servos_control_pca_1.png" alt="Flowchart" width="300"/>
 </p>
@@ -123,6 +125,8 @@ In addition, since the I2C protocol will be used for communication between the R
 Code: ```calibration/servo3.py```
 
 Finally, to make the use of several motors at the same time using the PCA9685 module, we will place several motors and test their correct operation, since the current source could not be enough to control several servomotors at the same time.
+
+Here we verify that the values of ```a``` and ```b``` found above give a correct synchronous operation of the motors together.
 
 <p align="center">
 <img src=".images-readme/servos_control_pca_4.png" alt="Flowchart" width="260"/>
