@@ -92,7 +92,7 @@ Simulating walk by moving various joints at a time:
 
 - [GitHub: SpotMicroAI Repositoty](https://github.com/FlorianWilk/SpotMicroAI)
 
-- [Nova Spot Micro 3 - a Spot Mini Clone Quadruped Robot Dog](https://www.instructables.com/Nova-Spot-Micro-a-Spot-Mini-Clone/)
+- [Nova Spot Micro 3 Mini Clone Quadruped Robot Dog](https://www.instructables.com/Nova-Spot-Micro-a-Spot-Mini-Clone/)
 
 - [Official ROS Website](https://www.ros.org/)
 
