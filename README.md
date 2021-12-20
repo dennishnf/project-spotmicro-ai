@@ -96,9 +96,9 @@ First we evaluate the correct operation of the motors, for this we use the simpl
 
 Code: ```calibration/servo2.py```
 
-Now a servo is going to be controlled using the PCA9885 module. For this we will use the file ```calibration/PCA9685.py```. It is recommended to use this file instead of installing the Adafruit CircuitPython PCA9685 library, since this library could generate several conflicts with other libraries.
+Now a servo is going to be controlled using the PCA9885 module. For this we will use the python file ```calibration/PCA9685.py```. It is recommended to use this file instead of installing the Adafruit CircuitPython PCA9685 library, since this library could generate several conflicts with other libraries.
 
-Since the I2C protocol will be used for communication between the Raspberry Pi and the PCA9685 module, the respective libraries for the use of I2C on the Raspberry Pi must be installed. To do this, install the libraries with: ```sudo apt-get install python-smbus i2c-tools```, and then test the address with: ```sudo i2cdetect -y 1-```
+In addition, since the I2C protocol will be used for communication between the Raspberry Pi and the PCA9685 module, the respective libraries for the use of I2C on the Raspberry Pi must be installed. To do this, install the libraries with: ```sudo apt-get install python-smbus i2c-tools```, and then test the address with: ```sudo i2cdetect -y 1-```
 
 <p align="center">
 <img src=".images-readme/servos_control_pca_1.png" alt="Flowchart" width="300"/>
