@@ -36,7 +36,7 @@ To connect to the MicroSpot robot you must use their own hotspot network, but th
 Between these two types of SSH connections, the connection via the local WiFi network was chosen because it would be easier to manipulate the robot wireless and remotely.
 
 <p align="center">
-<img src=".images-readme/ssh-conexion-rpi.png" alt="Flowchart" width="450"/>
+<img src=".images-readme/ssh-conexion-rpi.png" alt="Flowchart" width="500"/>
 </p>
 
 
@@ -75,6 +75,7 @@ $ ssh ubuntu@ubiquityrobot.local
 ```
 
 **Warning:**    
+
 Be careful with some WiFi names or passwords, as the use of characters such as hyphens (-) or quotes (") may cause the password to be misconfigured in wpa_supplicant.conf
 
 
@@ -82,7 +83,7 @@ Be careful with some WiFi names or passwords, as the use of characters such as h
 
 ### Calibration of 1 servomotor via GPIO ports
 
-Code: ```servo1.py```
+Code: ```calibration/servo1.py```
 
 First we evaluate the correct operation of the motors, for this we use the simple code mentioned above and the configuration shown in the figure. To control the servomotor we use the GPIO ports of the Raspberry Pi.
 
@@ -93,7 +94,11 @@ First we evaluate the correct operation of the motors, for this we use the simpl
 
 ### Calibration of 1 servomotor via PCA9885 module
 
-Code: ```servo2.py```
+Code: ```calibration/servo2.py```
+
+Now a servo is going to be controlled using the PCA9885 module. For this we will use the file ```calibration/PCA9685.py```. It is recommended to use this file instead of installing the Adafruit CircuitPython PCA9685 library, since this library could generate several conflicts with other libraries.
+
+Since the I2C protocol will be used for communication between the Raspberry Pi and the PCA9685 module, the respective libraries for the use of I2C on the Raspberry Pi must be installed. To do this, install the libraries with: ```sudo apt-get install python-smbus i2c-tools```, and then test the address with: ```sudo i2cdetect -y 1-```
 
 <p align="center">
 <img src=".images-readme/servos_control_pca_1.png" alt="Flowchart" width="300"/>
@@ -101,7 +106,9 @@ Code: ```servo2.py```
 
 ### Calibration of 4 servomotor via PCA9885 module
 
-Code: ```servo3.py```
+Code: ```calibration/servo3.py```
+
+Finally, to make the use of several motors at the same time using the PCA9685 module, we will place several motors and test their correct operation, since the current source could not be enough to control several servomotors at the same time.
 
 <p align="center">
 <img src=".images-readme/servos_control_pca_4.png" alt="Flowchart" width="260"/>
@@ -111,9 +118,9 @@ Code: ```servo3.py```
 
 ## Demos
 
-### Test calibration by moving one joint at a time:
+### Test calibration by moving one joint at a time
 
-Code: ```moveEachLeg.py```
+Code: ```calibration/moveEachLeg.py```
 
 In this calibration test, the movement of each servomotor is performed according to the assigned movement angles. This test is performed in series, for each servomotor, one after other.
 
@@ -121,9 +128,9 @@ In this calibration test, the movement of each servomotor is performed according
 <img src=".images-readme/demo1-lateral.gif" alt="Flowchart" width="350"/>
 </p>
 
-### Simulating walk by moving various joints at a time:
+### Simulating walk by moving various joints at a time
 
-Code: ```moveEachLeg.py```
+Code: ```calibration/moveEachLeg.py```
 
 As can be seen, first the motors start in a non-aligned initial position, the calibration program re-aligns the legs and begins to perform a repetitive motion simulating walking.
 
