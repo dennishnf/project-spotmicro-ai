@@ -14,6 +14,13 @@ Calibrating and controlling the MicriSpotAI robot from scratch.
 - Alexander OBEID ([@AlexanderOG](https://github.com/AlexanderOG))    
 - Dennis NUNEZ FERNANDEZ ([@dennishnf](https://github.com/dennishnf))    
 
+
+## Support
+
+- CRI, Université de Paris.     
+- Rajeev Mylapalli.
+
+
 ## Components from MicroSpot
 
 The MicriSpotAI has the following main components:
@@ -161,12 +168,6 @@ As can be seen, first the motors start in a non-aligned initial position, the ca
 **Warning:** 
 
 Because PCA9885 modules have a maximum output amperage for servomotors, two or three PCA9885 modules should be used. It was observed that when only one PCA9885 module was used, it was not possible to energize all 12 servomotors, so we proceeded to use two PCA9885 modules, each controlling 6 servomotors.
-
-
-## Support
-
-- CRI, Université de Paris.     
-- Rajeev Mylapalli.
 
 
 ## Resources and references
