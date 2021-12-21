@@ -2,7 +2,7 @@
 [![MIT Licence](https://img.shields.io/badge/License-MIT-blue.png)](https://opensource.org/licenses/mit-license.php)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.png)](https://github.com/dennishnf/project-microspot-ai/issues)
 [![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-1abc9c.png)](https://github.com/dennishnf/project-microspot-ai/)
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Download%20and%20use%20the%20Project%20XR%20Glasses&url=https://github.com/dennishnf/project-microspot-ai&hashtags=robotics,spotmicroai,spotmicro,raspberry)    
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Download%20and%20use%20the%20Project%20SpotMicro%20AI&url=https://github.com/dennishnf/project-spotmicro-ai&hashtags=robotics,spotmicroai,spotmicro,raspberry)    
 
 
 # Project-SpotMicro-AI
