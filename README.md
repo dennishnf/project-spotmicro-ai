@@ -192,7 +192,7 @@ Because PCA9885 modules have a maximum output amperage for servomotors, two or t
 
 git pull
 git add -A
-git commit -m "v0"
+git commit -m "updating readme"
 git push -u origin main
 
 --->
