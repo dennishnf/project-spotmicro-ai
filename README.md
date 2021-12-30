@@ -171,7 +171,7 @@ Because PCA9885 modules have a maximum output amperage for servomotors, two or t
 ## Support
 
 - CRI, Université de Paris     
-- Rajeev Mylapalli
+- Rajeev MYLAPALLI
 
 
 ## References
