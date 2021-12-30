@@ -177,10 +177,12 @@ Because PCA9885 modules have a maximum output amperage for servomotors, two or t
 ## References
 
 - [GitHub: Spot Micro Quadruped Project](https://github.com/mike4192/spotMicro)    
-- [GitLab: Custom version of BostonDynamics Spot robot](https://gitlab.com/public-open-source/spotmicroai/electronics)    
+- [GitLab: BostonDynamics Spot robot - Electronics](https://gitlab.com/public-open-source/spotmicroai/electronics)    
+- [GitLab: BostonDynamics Spot robot - RaspberryPi](https://gitlab.com/public-open-source/spotmicroai/raspberrypi)    
 - [Python Exemplary: Using servomotors and PCA9685](http://www.python-exemplary.com/index_en.php?inhalt_links=navigation_en.inc.php&inhalt_mitte=raspi/en/servomotors.inc.php)    
 - [GitHub: SpotMicroAI Repositoty](https://github.com/FlorianWilk/SpotMicroAI)    
 - [Nova Spot Micro 3 Mini Clone Quadruped Robot Dog](https://www.instructables.com/Nova-Spot-Micro-a-Spot-Mini-Clone/)    
+- [GitHub: Spot Micro repo by OttPeterR](https://github.com/OttPeterR/SpotMicro)    
 - [Official ROS Website](https://www.ros.org/)    
 - [Official ROS Kinetic Website](http://wiki.ros.org/kinetic)    
 
